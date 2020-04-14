@@ -6,6 +6,7 @@ let hits = 0;
 let guesses = 0; // значение текущего выстрела
 let isSunk = false;
 
+
 while ( isSunk == false){
       guess = prompt("Fire! number 0 - 6",0)
     if ( 0 > guess || guess >  6 ){
