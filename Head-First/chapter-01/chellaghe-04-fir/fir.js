@@ -17,7 +17,7 @@ while (counter<x) {
         counterInside++;
         a =a+c;
         b= b+' ';
-        
+
 
 
         // while (counter<y) {
