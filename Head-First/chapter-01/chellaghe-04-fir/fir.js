@@ -1,34 +1,70 @@
-let x =5;
-let snowflake = '*';
+let x =20;
 let y =8;
-
 let a ='';
-let b =' ';
-let c ='**';
+let str ='' ;
+let pass ='             ';
 let counter =0;
 let counterInside =0;
 
-while (counter<x) {
-    // debugger
-    a=  snowflake;
-    while (counterInside<y) {
 
-        console.log(b+a);
-        counterInside++;
-        a =a+c;
-        b= b+' ';
+for (let i = 0; i < x; i++){
 
-
-
-        // while (counter<y) {
-        //     counter++;
-        // }
-
+    for(let j = 0; j < x-1; j++){
+        str= '*';
 
     }
 
+    pass = pass+str;
 
-    counter=counter+1;
-    //
-    // console.log(b);
+    console.log(pass+str);
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// while (counter<x) {
+//     // debugger
+//     a=  snowflake;
+//     while (counterInside<y) {
+//
+//         console.log(b+a);
+//         counterInside++;
+//         a =a+c;
+//         b= b+' ';
+//
+//
+//
+//         // while (counter<y) {
+//         //     counter++;
+//         // }
+//
+//
+//     }
+//
+//
+//     counter=counter+1;
+//     //
+//     // console.log(b);
+// }

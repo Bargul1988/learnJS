@@ -17,11 +17,11 @@ while ( isSunk == false){
             hits = hits +1;
             alert('Одна палуба уничтожена');
             if (guess== location1)
-                location1 =undefined;
+                location1 ='';
             if (guess== location2)
-                location2 =undefined;
+                location2 ='';
             if (guess== location3)
-                location3 =undefined;
+                location3 ='';
 
             if(hits ==3){
                 alert("Вы уничтожили корабль");

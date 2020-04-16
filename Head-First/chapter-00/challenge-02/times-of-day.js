@@ -1,4 +1,4 @@
-let t = 4;
+let t = -1;
 if (t >= 0 && t < 6) {
     console.log('Доброй ночи');
 } else if (t >= 6 && t < 12) {
