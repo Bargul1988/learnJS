@@ -1,9 +1,9 @@
-let x = -5;
-function cube () {
+
+function cube (x) {
       x= x**3
     return(
-      console.log(x)
+      console.log('result ' +x)
     )
 }
-cube();
+cube(2);
 
