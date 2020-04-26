@@ -1,0 +1,78 @@
+let y;
+let z = 1;
+
+function swissKnife(x, callback) {
+
+    switch (callback) {
+
+        case 1:
+            cube(x);
+
+        function cube(x) {
+
+
+            y = x ** 3;
+
+            return console.log(`x = ${x} cube\n result  ${y}`);
+
+        }
+
+            break;
+        case 2 :
+            dayOfWeek(x);
+
+        function dayOfWeek(x) {
+            y = x;
+            switch (y) {
+                case 1:
+                    y = 'Monday';
+                    break;
+                case 2:
+                    y = 'Tuesday';
+                    break;
+                case 3:
+                    y = 'Wednesday';
+                    break;
+                case 4:
+                    y = 'Thursday';
+                    break;
+                case 5:
+                    y = 'Friday';
+                    break;
+                case 6:
+                    y = 'Saturday';
+                    break;
+                case 7:
+                    y = 'Sunday';
+                    break;
+                default:
+                    y = ('Число не соответствует дню недели. Выберете число от 1 до 7 ');
+            }
+
+
+            console.log(`x = ${x} dayOfWeek \n result ${y}`);
+        }
+
+            break;
+        case  3:
+            factorial(x)
+
+        function factorial(x) {
+
+            if (x === 1) {
+            } else {
+                factorial(x - 1)
+                z = z * x;
+            }
+        }
+
+            return console.log(`x = ${x} factorial \n result ${z} `);
+
+            break;
+
+        default :
+            console.log('Значение должно быть от 1 до 3');
+    }
+}
+
+swissKnife(5, 3);
