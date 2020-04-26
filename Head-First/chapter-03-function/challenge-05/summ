@@ -1,0 +1,11 @@
+let y =0;
+function summ(x) {
+    debugger
+     if (x ===0){
+         return y;
+     }else{
+         y=y+x;
+     }return  summ(x-1)
+}
+let total = summ(6);
+console.log(total);
