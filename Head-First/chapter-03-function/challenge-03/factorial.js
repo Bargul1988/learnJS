@@ -1,9 +1,13 @@
-let y=1;
+let fct = 1;
+
 function factorial(x) {
-   for (let i =1; i<=x; x--){
-      y= y*x;
-   }
-   return y;
+    if (x === 1) {
+    } else {
+        factorial(x - 1);
+        fct = fct * x;
+    }
+   return fct;
 }
-let total = factorial(4)
-console.log(total)
+
+let total = factorial(5);
+console.log(total);
