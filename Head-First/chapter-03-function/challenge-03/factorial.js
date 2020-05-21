@@ -1,12 +1,9 @@
-let fct = 1;
-
 function factorial(x) {
     if (x === 1) {
+        return x;
     } else {
-        factorial(x - 1);
-        fct = fct * x;
+        return x * factorial(x - 1);
     }
-   return fct;
 }
 
 let total = factorial(5);
